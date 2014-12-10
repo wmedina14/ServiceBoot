@@ -168,7 +168,7 @@ public class ServicioLocalizacion extends Service implements LocationListener {
 	static class TareaSegundoPlano extends AsyncTask<CapturaLocalizacion, Void, Void>{
 
 		CapturaLocalizacion datos;
-		String url ="http://www.arcavi.net/arcavi/gpsReceive.php";
+		String url ="http://www.somepage.com/gpsReceive.php";
 		String paramString;
 		
 		

@@ -57,7 +57,7 @@ public class EmpresaConfig {
 		//gIdDevice  = Secure.getString(this.getContentResolver(), Secure.ANDROID_ID);
 		try {
 			HttpClient httpCliente = new DefaultHttpClient();
-			HttpPost httpPost = new HttpPost("http://www.arcavi.net/arcavi/gpsAndroid/configEmpresa.php?idDispositivo="+gIdDevice);
+			HttpPost httpPost = new HttpPost("http://www.somepage.com/configEmpresa.php?idDispositivo="+gIdDevice);
 			
 			HttpResponse response = httpCliente.execute(httpPost);
 			HttpEntity entity = response.getEntity();
